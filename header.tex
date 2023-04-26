@@ -1,0 +1,34 @@
+\documentclass[a4paper,12pt,onecolumn,oneside]{report}
+\usepackage{fontspec} % Gestion de la typographie
+\usepackage{xunicode} % Prise en charge de l'unicode ou utf-8
+\usepackage{polyglossia} % Gestion des langues
+	\setdefaultlanguage[variant=french]{french}
+	\setotherlanguage[variant=american]{english}
+\usepackage{amsmath} % package ams-math
+\usepackage{amsfonts} % package ams-fonts
+\usepackage{amssymb} % package ams-symb
+\usepackage{graphicx} % Pour inserer des graphiques
+\usepackage{xcolor}
+\usepackage{calc}
+\usepackage{hyperref} % Pour gerer les liens et references croisées
+	\hypersetup{backref,
+	colorlinks=true,
+	citecolor=green,
+	filecolor=yellow,
+	linkcolor=blue,
+	urlcolor=red,
+	hyperfigures=true,
+	pdftitle={DIY 12V photovoltaic system}}
+\usepackage[left=2.5cm,right=2.5cm, top=2.5cm,bottom=2.5cm]{geometry}
+%\usepackage{biblatex} % Gestion de la bibliographie
+%\usepackage{imakeidx} % Pour creer un index
+%	\makeindex
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{wrapfig}
+\usepackage{tikz}
+\usepackage{multirow}
+\usepackage{rotating}
+\renewcommand{\arraystretch}{1.2}
+\usepackage[backend=biber,bibstyle=numeric,citestyle=numeric,sorting=none]{biblatex}
+\addbibresource{lien_bibliographie/bibliographie.bib}
